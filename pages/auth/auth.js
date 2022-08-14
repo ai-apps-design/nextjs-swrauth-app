@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import Router from "next/router";
 
-import Nav from "../components/nav";
+import Nav from "/components/nav";
 
-import useUser from "../data/use-user";
-import { login } from "../libs/auth";
+import useUser from "/data/use-user";
+import { login } from "/libs/auth";
 
 export default function App() {
   const { user, mutate, loggedOut } = useUser();
@@ -12,7 +12,7 @@ export default function App() {
   // if logged in, redirect to the dashboard
   useEffect(() => {
     if (user && !loggedOut) {
-      Router.replace("/dashboard");
+      Router.replace("/auth/dashboard");
     }
   }, [user, loggedOut]);
 
