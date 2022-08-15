@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import Router from "next/router";
 
-import Nav from "/components/nav";
+import Nav from "/components/auth/nav";
 
-import useUser from "/data/use-user";
-import { login } from "/libs/auth";
+import useUser from "/data/auth/use-user";
+import { login } from "/lib/auth/auth";
 
 export default function App() {
   const { user, mutate, loggedOut } = useUser();

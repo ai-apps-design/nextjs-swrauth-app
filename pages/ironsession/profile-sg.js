@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "/components/ironsession/Layout";
-import useUser from "/libs/ironsession/useUser";
-import useEvents from "/libs/ironsession/useEvents";
+import useUser from "/lib/ironsession/useUser";
+import useEvents from "/lib/ironsession/useEvents";
 
 // Make sure to check https://nextjs.org/docs/basic-features/layouts for more info on how to use layouts
 export default function SgProfile() {

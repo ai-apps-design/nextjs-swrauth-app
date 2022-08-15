@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import Router from "next/router";
 
-import Nav from "/components/nav";
+import Nav from "/components/auth/nav";
 
-import useUser from "/data/use-user";
-import { logout } from "/libs/auth";
+import useUser from "/data/auth/use-user";
+import { logout } from "/lib/auth/auth";
 
 export default function Dashboard() {
   const { user, loading, loggedOut, mutate } = useUser();

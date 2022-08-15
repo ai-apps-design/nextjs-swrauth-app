@@ -1,5 +1,5 @@
-import useUser from "../data/use-user";
-import { login } from "../libs/auth";
+import useUser from "/data/auth/use-user";
+import { login } from "/lib/auth/auth";
 
 export default function Nav({ title }) {
   const { user, loading, loggedOut, mutate } = useUser();

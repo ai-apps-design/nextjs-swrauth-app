@@ -1,6 +1,6 @@
-import { usePaginatePosts } from "/libs/useRequest";
+import { usePaginatePosts } from "/lib/infinite/useRequest";
 
-import Post from "/components/post";
+import Post from "/components/infinite/post";
 
 export default function IndexPage() {
   const {

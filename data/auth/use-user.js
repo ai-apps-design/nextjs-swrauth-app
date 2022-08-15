@@ -1,6 +1,6 @@
 import useSWR from "swr";
 
-import userFetcher, { mock_user_api } from "../libs/api-user";
+import userFetcher, { mock_user_api } from "/lib/auth/api-user";
 
 export default function useUser() {
   // const { data, mutate, error } = useSWR("api_user", userFetcher);

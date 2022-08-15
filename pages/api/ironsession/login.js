@@ -1,6 +1,6 @@
 import { Octokit } from "octokit";
 import { withIronSessionApiRoute } from "iron-session/next";
-import { sessionOptions } from "/libs/ironsession/session";
+import { sessionOptions } from "/lib/ironsession/session";
 const octokit = new Octokit();
 
 console.log('api/ironsession/event route sessionOptions :', sessionOptions);

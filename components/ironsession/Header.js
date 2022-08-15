@@ -1,8 +1,8 @@
 import Link from "next/link";
-import useUser from "/libs/ironsession/useUser";
+import useUser from "/lib/ironsession/useUser";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import fetchJson from "/libs/ironsession/fetchJson";
+import fetchJson from "/lib/ironsession/fetchJson";
 
 export default function Header() {
   const { user, mutateUser } = useUser();
