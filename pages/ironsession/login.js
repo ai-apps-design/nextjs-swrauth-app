@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import useUser from "/lib/ironsession/useUser";
+import useUser from "/libs/ironsession/useUser";
 import Layout from "/components/ironsession/Layout";
 import Form from "/components/ironsession/Form";
-import fetchJson, { FetchError } from "/lib/ironsession/fetchJson";
+import fetchJson, { FetchError } from "/libs/ironsession/fetchJson";
 
 export default function Login() {
   // here we just check if user is already logged in and redirect to profile
