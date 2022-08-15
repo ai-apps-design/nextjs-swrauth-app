@@ -56,7 +56,7 @@ const DemoIndex = () => {
         </div>
 
         <div className="row align-items-md-stretch">
-          <div className="col-md-3">
+          <div className="col-md-4">
           <div className="h-100 p-5 bg-light border rounded-3">
           <h2>SWR Auth Example</h2>
               <a href="https://swr.vercel.app/examples/auth">SWR Autentication Example</a>
@@ -64,7 +64,7 @@ const DemoIndex = () => {
               <button className="btn btn-outline-secondary" onClick={() => router.push('/auth/auth')} type="button">Demo</button>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4">
             <div className="h-100 p-5 bg-light border rounded-3">
               <h2>Infinite Loading</h2>
               Data fetching: Examples {' '}
@@ -76,15 +76,7 @@ const DemoIndex = () => {
               <button className="btn btn-outline-secondary" onClick={() => router.push('/infinite/infiniteposts')} type="button">Demo</button>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="h-100 p-5 bg-light border rounded-3">
-              <h2>Next.js SSR</h2>
-              <a href="https://swr.vercel.app/examples/ssr">Nextjs SSR Example source</a>
-              <p>Demo <code>getServerSideProps</code> in Next.js page.</p>
-              <button className="btn btn-outline-secondary" onClick={() => router.push('/ssr/SwrSSRDemo')} type="button">Demo</button>
-            </div>
-          </div>
-          <div className="col-md-3">
+          <div className="col-md-4">
             <div className="h-100 p-5 bg-light border rounded-3">
               <h2>Example app using MongoDB</h2>
               <a href="https://swr.vercel.app/examples/ssr">Vercel Mongo server side demo source</a>
@@ -96,7 +88,15 @@ const DemoIndex = () => {
 
         {/* Second Row */ }
         <div className="row align-items-md-stretch">
-          <div className="col-md-3">
+        <div className="col-md-4">
+        <div className="h-100 p-5 bg-light border rounded-3">
+          <h2>Next.js SSR</h2>
+          <a href="https://swr.vercel.app/examples/ssr">Nextjs SSR Example source</a>
+          <p>Demo <code>getServerSideProps</code> in Next.js page.</p>
+          <button className="btn btn-outline-secondary" onClick={() => router.push('/ssr/SwrSSRDemo')} type="button">Demo</button>
+        </div>
+      </div>
+      <div className="col-md-4">
           <div className="h-100 p-5 bg-light border rounded-3">
           <h2>Iron-Sessions</h2>
               <a href="https://github.com/vvo/iron-session/tree/main/examples/next.js">Iron-Session Next.js Example</a>
